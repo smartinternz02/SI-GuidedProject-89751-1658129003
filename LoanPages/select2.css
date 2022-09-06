@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(loanbg.jpeg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1 ,h2{
+    color: aqua;
+    font-family: inherit;
+    text-align: center;
+}
+p {
+    color: aqua;
+    font-family: inherit;
+    text-align: center;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    position: relative;
+    transform: translateY(90%);
+    height: 150px;
+    width:300px;
+    background: rgba(3, 2, 2, 1);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    margin: 50px;
+    font-size: 25px;
+    cursor:pointer;
+  }
+.btn:hover{
+    transform: translateY(5em);
+    background: grey;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
